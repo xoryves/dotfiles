@@ -1,0 +1,27 @@
+= Visual Studio Code
+
+* https://code.visualstudio.com/docs/getstarted/settings[User and Workspace Settings]
+* https://code.visualstudio.com/docs/getstarted/keybindings[Key Bindings for Visual Studio Code]
+
+== Settings
+
+[horizontal]
+Windows:: `%APPDATA%\Code\User\settings.json`
+macOS:: `$HOME/Library/Application\ Support/Code/User/settings.json`
+Linux:: `$HOME/.config/Code/User/settings.json`
+
+== Key Bindings
+
+[horizontal]
+Windows:: `%APPDATA%\Code\User\keybindings.json`
+macOS:: `$HOME/Library/Application\ Support/Code/User/keybindings.json`
+Linux:: `$HOME/.config/Code/User/keybindings.json`
+
+== Snippets
+
+* https://code.visualstudio.com/docs/editor/userdefinedsnippets[Snippets in Visual Studio Code]
+
+[horizontal]
+Windows:: `%APPDATA%\Code\User\snippets\language_identifier.json`
+macOS:: `$HOME/Library/Application\ Support/Code/User/snippets/language_identifier.json`
+Linux:: `$HOME/.config/Code/User/snippets/language_identifier.json`

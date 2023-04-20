@@ -1,0 +1,10 @@
+{
+    "css.validate": false,
+    "cSpell.language": "en,de-DE",
+    "telemetry.telemetryLevel": "off",
+    "redhat.telemetry.enabled": false,
+    "[yaml]": {
+    },
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary"
+}

@@ -1,0 +1,37 @@
+{
+	"Collapsible Listing Block": {
+    "prefix": ["pre_"],
+    "body": [
+      ".$1",
+      "[%collapsible, role=listing-block ${2|term,code|}]",
+      "====",
+      "[source, ${3:sh}]",
+      "----",
+      "$0",
+      "----",
+      "===="
+    ],
+    "description": "Collapsible Listing Block"
+  },
+  "Listing Block": {
+    "prefix": "pre",
+    "body": [
+      "[source, ${1:sh}, role=${2|term,code|}]",
+      "----",
+      "$0",
+      "----"
+    ],
+    "description": "Listing Block"
+  },
+  "header": {
+    "prefix": "header",
+    "body": [
+      "---",
+      "title: ${1:Titel}",
+      "created_at: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      "---",
+      "",
+      "$0"
+    ]
+  }
+}
